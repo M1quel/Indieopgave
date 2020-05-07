@@ -1,0 +1,123 @@
+.item-container{
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 160px;
+}
+.item-container h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row {
+    border-bottom: 1px solid black;
+    display: flex;
+    width: 100%;
+    padding: 0px 10px;
+}
+.cart-item{
+    width: 100vw;
+}
+.cart-quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 17px;
+}
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-footer{
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+    left: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 50px;
+    border-top: black 1px solid;
+}
+.cart-footer button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
+    width: 100%;
+    background-color: rgb(255, 90, 90);
+    border-radius: 10px;
+}
+
+.cart-total-title, .cart-total-price{
+    font-size: 20px;
+}
+.cart-total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.price-wrapper{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    margin-right: 10px;
+}
+
+
